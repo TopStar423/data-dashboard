@@ -1,0 +1,45 @@
+.dashboard {
+    padding: 40px;
+    position: relative;
+
+    .filters-container {
+        width: 100%;
+        display: flex;
+
+        .filter-main-title {
+            width: 100px;
+        }
+
+        .filter-title {
+            font-weight: 600;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .filters {
+            width: 100%;
+            flex: 1;
+
+            .filter {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .add-container {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+
+        .btn-action {
+            font-weight: 500;
+            font-size: 20px;
+            padding: 5px 20px;
+            border: none;
+            border-radius: 10px;
+            margin-left: 20px;
+        }
+    }
+}

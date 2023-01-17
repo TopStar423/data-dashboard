@@ -1,0 +1,21 @@
+.pagination-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+
+    .pagination {
+        margin-bottom: 0;
+    }
+
+    .items-per-page {
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+
+        .items-per-page-label {
+            font-weight: 600;
+            margin-right: 10px;
+        }
+    }
+}
